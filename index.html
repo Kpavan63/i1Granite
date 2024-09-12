@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            scroll-behavior:smooth;
+        }
+        .container{
+            width: 100%;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            height: 60px;
+            display: flex;
+            padding: 5px;
+            position: relative;
+            border-bottom: 2px solid black;
+        }
+        .name{
+            margin-left: 90px;
+            align-items: center;
+            font-size: 35px;
+            margin-top: 3px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .links{
+            position: absolute;
+            right: 0px;
+            top: 15px;
+            padding: 10px;
+            background-color: rgb(230, 198, 18);
+        }
+        .link{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 17px;
+            font-size: 17px;
+            transition: all 1s;
+        }
+        .im{
+            width: 15px;
+            height: 15px;
+            color: red;
+        }
+        .link:hover{
+            text-decoration: underline 5px rgb(243, 0, 0);
+            background-color: black;
+            color: white;
+            padding: 8px 40px;
+        }
+        .link-btn{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 40px;
+            background-color: blueviolet;
+            padding: 10px 40px;
+            font-size: 17px;
+            font-family: monospace;
+            border-radius: 12px;
+            transition: all 1s;
+        }
+        .link-btn:hover{
+            box-shadow: 9px 5px 10px black;
+        }
+        .se{
+            position: relative;
+        }
+        .search{
+            height: 40px;
+            margin-left: 130px;
+            margin-top: 9px;
+            padding: 7px 50px;
+        }
+        .serch-icon{
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+        .container-2{
+            width: 100%;
+            border: none;
+            height: 500px;
+            position: relative;
+            overflow: hidden;
+        }
+        .container-2 video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+          }
+          
+          .video-content {
+            position: relative;
+            z-index: 1;
+          }
+          h1 {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            margin-top: 100px;
+          }
+          p {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            margin-top: 0px;
+          }
+          .buttn{
+            margin-top: 100px;
+          }
+          .btn-{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 15px 60px;
+            border-radius: 12px;
+            margin: 10px;
+
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="name">i1Granite</h2>
+        <div class="se">
+            <input type="search" placeholder="Search your Stone" class="search">
+            <a href="#" style="text-decoration: none;"><img src="https://cdn-icons-png.flaticon.com/128/54/54481.png" alt="" class="serch-icon"></a>
+        </div>
+       
+        <nav>
+            <div class="links">
+                <a href="#" class="link"><img src="https://cdn-icons-png.flaticon.com/128/3917/3917032.png" class="im">&nbsp;Home</a>
+                <a href="#" class="link"><img src="https://cdn-icons-png.flaticon.com/128/3916/3916716.png" class="im">&nbsp;About</a>
+                <a href="#" class="link"><img src="https://cdn-icons-png.flaticon.com/128/13794/13794635.png" class="im">&nbsp;Contact</a>
+                <a href="#" class="link-btn"><img src="https://cdn-icons-png.flaticon.com/128/13727/13727443.png" class="im">&nbsp;Direction</a>
+            </div>            
+        </nav>
+    </div>
+
+    <div class="container-2">
+        <video autoplay loop muted>
+            <source src="https://videocdn.cdnpk.net/videos/7cf19b70-76f1-40ff-931d-f7a703687171/horizontal/previews/clear/small.mp4?token=exp=1726161379~hmac=c626838e6026a251c3df25fef00478849447b6bc598c9c9b40183372c01954b8" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      
+        <div class="video-content">
+            <!-- Your other content goes here -->
+            <h1>i1Granite Company PVT.LTD</h1>
+            <p>Crafting timeless elegance in stone. Transforming spaces with precision and passion. Your premier destination for exquisite granite solutions</p>
+            <div class="buttn">
+                <center>
+                    <a href="#" class="btn-">Visit Now</a>&nbsp;<a href="#" class="btn-"> Join Community</a>
+                </center>
+            </div>
+            
+        </div>
+    </div>
+    <br>
+    <style>
+        .container-4{
+            display: block;
+            background-color: black;
+            margin-top: -17px;
+        }
+        .bar1{
+            width: 100%;
+            height: 350px;
+            position: relative;
+            border: 2px solid
+        }
+        .bar2{
+            width: 100%;
+            height: 350px;
+            position: relative;
+            border:none;
+           
+        }
+        .bar-img{
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+        .img-bar{
+            width: 350px;
+            height: 290px;
+        }
+        .bar-img2{
+            position: absolute;
+            right: 100px;
+            top: 40px;
+        }
+        .text{
+            position: absolute;
+            top: 100px;
+            right: 90px;
+            width: 700px;
+            color: black;
+        }
+        .text2{
+            position: absolute;
+            top: 100px;
+            left: 90px;
+            width: 700px;
+            
+        }
+        .text2 p{
+            color: rgb(255, 255, 255);
+        }
+        .text p{
+            color: rgb(255, 255, 255);
+        }
+        .learn{
+            text-decoration: none;
+            position: absolute;
+            top: 250px;
+            right: 380px;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 12px;
+            font-size: 20px;
+            background-color: blueviolet;
+        }
+        .learn2{
+            text-decoration: none;
+            position: absolute;
+            top: 270px;
+            left: 350px;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 12px;
+            font-size: 20px;
+            background-color: blueviolet;
+        }
+    </style>
+    <div class="container-4">
+        <header>Your Granite Installation Services</header>
+        <div class="bar1">
+            <header style="color: white; text-decoration:underline; text-align:center; margin-top:-10px;">Your Granite Installation Services</header>
+            <div class="bar-img">
+                <img src="https://img.freepik.com/free-photo/circular-saw-carpenter-using-circular-saw-wood_169016-17039.jpg?t=st=1709908972~exp=1709912572~hmac=f444c19192f2c4631b31c3957e75adaad9371489e8901beda13a78920c9f3bbd&w=740" alt="" class="img-bar">
+            </div>
+            <div class="text">
+                <p>As granite installation experts, we’ve had the privilege of installing some of the most iconic monuments and public artworks in Canada and North America.</p>
+            </div>
+            <a href="#" class="learn">Learn More</a>
+        </div>
+        <div class="bar2">
+            <div class="text2">
+                <p>Our many years in the industry mean we’re able to solve complex logistical challenges quickly and easily, while providing peace of mind to our clients throughout the entire project.</p>
+            </div>
+            <div class="bar-img2">
+                <img src="https://img.freepik.com/premium-photo/male-tiler-using-trowel-laying-marble-tile-with-cement-bathroom-housing-development-interior-improvement-renovation_49071-7533.jpg?w=740" alt="" class="img-bar">
+            </div>
+            <a href="#" class="learn2">Learn More</a>
+        </div>
+
+    </div>
+    <br><br>
+    <style>
+        header{
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: underline;
+        }
+        .container-3{
+            background-color: black;
+            color: aliceblue;
+            margin-top: -30px;
+        }
+        .cards{
+            margin-left: 70px;
+            display: flex;
+            gap: 19px;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 280px;
+            border: 2px solid lightgray;
+            height: 400px;
+            border-radius: 12px;
+            transition: all 0.7s;
+        }
+        .card:hover{
+
+            box-shadow: 5px 5px 10px yellow;
+        }
+        .rock{
+            width: 100%;
+            border-radius: 12px;
+        }
+        .title{
+            text-align: center;
+            color: rgb(251, 255, 0);
+        }
+        .paragraph{
+            color: rgb(255, 253, 253);
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+    <div class="container-3">
+        <br>
+        <header>Your Granite Stone</header>
+        <br><br>
+        <div class="cards">
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Black-Galaxy.jpg" alt="" class="rock">
+                <h2 class="title">Black Glaxy</h2>
+                <p class="paragraph">Pure black with gold flecks, this granite has incredible sparkle that catches the slightest glimmer of light.</p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Indian-Mahogany.jpg" alt="" class="rock">
+                <h2 class="title">Indian Mahogany</h2>
+                <p class="paragraph">Deep brown in colour with a consistent grain, this granite a hard and durable stone ideal for both indoor and outdoor use.</p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-american-black-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">American Black</h2>
+                <p class="paragraph">This domestic material has a stunning effect when used in any application, whether it be a memorial or a plaza of cobblestone pavers. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-aurora-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Aurora Granite</h2>
+                <p class="paragraph">With its unmistakable personality this stone stands out as one of the most vivacious colours we supply. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-bahama-blue.jpg.webp" alt="" class="rock">
+                <h2 class="title">Bahama Blue Granite</h2>
+                <p class="paragraph"> collaborate with the plainer granites to display its distinctive colour and variegated hues of blue. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-balmoral-finland-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Balmoral Granite</h2>
+                <p class="paragraph"> This beautiful granite is world renowned for its exceptional durability.</p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-barre-grey-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Barre Grey Granite</h2>
+                <p class="paragraph">Our nicest grey available is a consistent fine grain granite quarried in a town named after this remarkable stone.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-bethel-white-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Bethel White Granite</h2>
+                <p class="paragraph">Being one of the few white granites available around the globe makes this colour very special.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Black-Pearl-POLISHED.jpg" alt="" class="rock">
+                <h2 class="title">Black Pearl Granite </h2>
+                <p class="paragraph"> Often used for streetscape elements on many architectural projects, this granite is deep black with medium to large grain structure.</p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-blue-pearl-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Blue Pearl Granite</h2>
+                <p class="paragraph">Characterized by its remarkable pearls, this stunning blue granite is one of the most unmistakable granites worldwide </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-brits-impala-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Brits / Impala Granite</h2>
+                <p class="paragraph">This dark grey granite quarried in South Africa continues to be a very popular material of choice.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Cambrian-Black.jpg" alt="" class="rock">
+                <h2 class="title">Cambrian Black Granite</h2>
+                <p class="paragraph">This black granite can be found in many iconic memorials, buildings and streetscapes across North America.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-cats-eye-brown-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Cat’s Eye Granite</h2>
+                <p class="paragraph">ts name, derived from the distinctive deposits in the stone, accurately describes the appearance of this granite. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-coffee-brown-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Coffee Brown Granite</h2>
+                <p class="paragraph">This is the darkest brown granite that we supply. The deep rich tones exemplified in this granite are true to its name and comparable to that of coffee.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-dakota-mahogany-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Dakota Mahogany Granite</h2>
+                <p class="paragraph">This domestic granite is an exceptional example of the beauty that can be found within North America. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-emerald-pearl-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Emerald Pearl Granite</h2>
+                <p class="paragraph">Elegant is the perfect word to describe this beautiful green granite. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-fire-flame-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Fire Flame Granite</h2>
+                <p class="paragraph"> The name of this red granite didn’t come from nowhere. The character of this granite is very unique, making no two pieces the same. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Himalayan-Blue.jpg" alt="" class="rock">
+                <h2 class="title">Himalayan Blue Granite</h2>
+                <p class="paragraph">This granite features a beautiful mix of grey and blue with accents of orange and brown. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-imperial-grey-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Imperial Grey Granite</h2>
+                <p class="paragraph">This is one of our most popular grey granites. Its consistent grain and affordable price make it a material of choice for a variety of uses.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-imperial-impala-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Imperial Impala Granite</h2>
+                <p class="paragraph">Also known as Charcoal, this is great choice for any application needing a dark grey granite. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2023/11/Imperial-Pink-Granite-from-HGH-Granite-e1702554540756.jpg" alt="" class="rock">
+                <h2 class="title">Imperial Pink</h2>
+                <p class="paragraph"> Imperial Pink is a fine grain granite with consistent appearance.</p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Indian-Red-fine-grain.jpg" alt="" class="rock">
+                <h2 class="title">Indian Red Granite (Fine)</h2>
+                <p class="paragraph"> This unmistakable red granite is the colour of choice for any application requiring a durable red. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-indian-red-large-grain-t-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Indian Red Granite (Large)</h2>
+                <p class="paragraph"> This unmistakable red granite is the colour of choice for any application requiring a durable red. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-jet-black-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Jet Black Granite</h2>
+                <p class="paragraph"> By far our most popular black granite, this material is used in a variety of applications. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Laurentian-Green-Polished.jpg" alt="" class="rock">
+                <h2 class="title">Laurentian Green Granite</h2>
+                <p class="paragraph"> This green granite is uniquely distinguished by its pearl-like grain structure.</p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/Laurentian-Pink.jpg" alt="" class="rock">
+                <h2 class="title">Laurentian Pink Granite</h2>
+                <p class="paragraph">This light pink colour is a very popular granite. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-mountain-rose-pink-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Mountain Rose Granite</h2>
+                <p class="paragraph">This is a beautiful colour and used many different ways. Its medium-to-fine structure of granite creates a notable evenness to the material.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Multi-colour-Polished.jpg" alt="" class="rock">
+                <h2 class="title">Multi-colour Granite</h2>
+                <p class="paragraph">The name says it all. Multi-colour granite is a beautiful blend of a variety of colours.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-paradiso-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Paradiso Granite</h2>
+                <p class="paragraph">This material is one-of-a-kind. With its variegated grain and distinctive colour this granite always gets attention when used in any application.  </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/06/hgh-granite-colours-red-deer-mahogany-polished.jpg.webp" alt="" class="rock">
+                <h2 class="title">Red Deer Mahogany Granite</h2>
+                <p class="paragraph"> This medium grain granite consists mainly of brown and grey. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Regal-Black-Polished.jpg" alt="" class="rock">
+                <h2 class="title">Regal Black Granite</h2>
+                <p class="paragraph">Speckled black makes this granite a great option for those who prefer a dark stone, but wish to avoid the starkness of Jet Black. </p>
+            </div>
+            <div class="card">
+                <img src="https://hghgranite.com/wp-content/uploads/2022/07/Silver-Bronze-Polished.jpg" alt="" class="rock">
+                <h2 class="title">Silver Bronze Granite</h2>
+                <p class="paragraph"> Dark silvery grey with unique reflectors in the stone when polished, Silve Bronze granite shimmers in the sun.</p>
+            </div>
+                <div class="card">
+                    <img src="https://hghgranite.com/wp-content/uploads/2022/07/St.-Henry-Polished.jpg" alt="" class="rock">
+                    <h2 class="title">St. Henry Black Granite</h2>
+                    <p class="paragraph">This is a large grain Black granite, often used for architectural projects. </p>
+                </div>
+                <div class="card">
+                    <img src="https://hghgranite.com/wp-content/uploads/2022/07/Stanstead-Grey.jpg" alt="" class="rock">
+                    <h2 class="title">Stanstead Grey Granite</h2>
+                    <p class="paragraph"> Consistent light grey, this granite has excellent durability.</p>
+                </div>
+           
+        </div>
+    </div>
+    <style>
+        .container-5{
+            width: 100%;
+            height: 200px;
+            border: none;
+            margin-top: 10px;
+            background-color: white;
+            
+            
+        }
+        .partners{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+        }
+        .marquee-box{
+            width: 100%;
+            height: 200px;
+            margin-top: 20px;
+
+        }
+        .logos{
+            width: 250px;
+            height: 70px;
+        }
+    </style>
+    <div class="container-5">
+        <h2 class="partners">Your Partners</h2>
+        <div class="marquee-box">
+            <marquee behavior="scroll" direction="left">
+                <img src="https://www.ratani.in/wp-content/themes/ratani/images/logo.png" alt="ratani" class="logos">
+
+                <img src="http://www.adityastonex.com/wp-content/uploads/2017/02/aditya-stonex-logo.png" alt="" class="logos">
+
+                <img src="https://www.avidmarbles.com/images/avid-marbles.png" alt="" class="logos">
+                
+                <img src="https://static.wixstatic.com/media/f7acff_7961a905f921431195c47d66473f3324~mv2.png/v1/crop/x_58,y_61,w_1706,h_314/fill/w_346,h_64,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f7acff_7961a905f921431195c47d66473f3324~mv2.png" alt="" class="logos">
+
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2023/07/main-logo.jpg" alt="" class="logos">
+                
+                <img src="https://www.marbleindian.com/wp-content/uploads/2018/09/kushalbagh-logo-white-1.png" alt="" class="logos">
+                <img src="https://www.ratani.in/wp-content/themes/ratani/images/logo.png" alt="ratani" class="logos">
+
+                <img src="http://www.adityastonex.com/wp-content/uploads/2017/02/aditya-stonex-logo.png" alt="" class="logos">
+
+                <img src="https://www.avidmarbles.com/images/avid-marbles.png" alt="" class="logos">
+                
+                <img src="https://static.wixstatic.com/media/f7acff_7961a905f921431195c47d66473f3324~mv2.png/v1/crop/x_58,y_61,w_1706,h_314/fill/w_346,h_64,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f7acff_7961a905f921431195c47d66473f3324~mv2.png" alt="" class="logos">
+
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2023/07/main-logo.jpg" alt="" class="logos">
+                
+                <img src="https://www.marbleindian.com/wp-content/uploads/2018/09/kushalbagh-logo-white-1.png" alt="" class="logos">
+                <img src="https://www.ratani.in/wp-content/themes/ratani/images/logo.png" alt="ratani" class="logos">
+
+                <img src="http://www.adityastonex.com/wp-content/uploads/2017/02/aditya-stonex-logo.png" alt="" class="logos">
+
+                <img src="https://www.avidmarbles.com/images/avid-marbles.png" alt="" class="logos">
+                
+                <img src="https://static.wixstatic.com/media/f7acff_7961a905f921431195c47d66473f3324~mv2.png/v1/crop/x_58,y_61,w_1706,h_314/fill/w_346,h_64,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f7acff_7961a905f921431195c47d66473f3324~mv2.png" alt="" class="logos">
+
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2023/07/main-logo.jpg" alt="" class="logos">
+                
+                <img src="https://www.marbleindian.com/wp-content/uploads/2018/09/kushalbagh-logo-white-1.png" alt="" class="logos">
+                <img src="https://www.ratani.in/wp-content/themes/ratani/images/logo.png" alt="ratani" class="logos">
+
+                <img src="http://www.adityastonex.com/wp-content/uploads/2017/02/aditya-stonex-logo.png" alt="" class="logos">
+
+                <img src="https://www.avidmarbles.com/images/avid-marbles.png" alt="" class="logos">
+                
+                <img src="https://static.wixstatic.com/media/f7acff_7961a905f921431195c47d66473f3324~mv2.png/v1/crop/x_58,y_61,w_1706,h_314/fill/w_346,h_64,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f7acff_7961a905f921431195c47d66473f3324~mv2.png" alt="" class="logos">
+
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2023/07/main-logo.jpg" alt="" class="logos">
+                
+                <img src="https://www.marbleindian.com/wp-content/uploads/2018/09/kushalbagh-logo-white-1.png" alt="" class="logos">
+
+            </marquee>
+        </div>
+    </div>
+    <br>
+    <style>
+        .container-6{
+            overflow-x: scroll;
+            width: 100%;
+            height: 500px;
+            border: 2px solid lightgray;
+        }
+        .scroll{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 180px;
+        }
+        .card-img{
+            width: 320px;
+            border: 2px solid lightgray;
+            padding: 10px;
+        }
+        .card-img-pp{
+            width: 100%;
+        }
+    </style>
+    <h2 class="partners">Your Gallery</h2>
+    <div class="container-6">
+        <div class="scroll">
+            <div class="card-img">
+                <img src="https://stonenews.eu/wp-content/uploads/2020/02/5-1.jpg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://static.toiimg.com/thumb/msid-87710564,width-1280,height-720,resizemode-4/87710564.jpg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://th-i.thgim.com/public/migration_catalog/article16682379.ece/alternates/LANDSCAPE_1200/AVN26_MINE" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://static.toiimg.com/thumb/msid-87710564,width-1280,height-720,resizemode-4/87710564.jpg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://igranites.com/images/quarry/black_galaxy_granite_3509.jpg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://www.marbleindian.com/wp-content/uploads/2018/01/banner-022.jpg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2020/11/Alaska-White-1.jpeg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2023/07/ae4a9ab6f3.jpg" alt="" class="card-img-pp">
+            </div>
+            <div class="card-img">
+                <img src="https://www.bhandarimarblegroup.com/wp-content/uploads/2023/07/6c48d51208.jpg" alt="" class="card-img-pp">
+            </div>
+        </div>
+    </div>
+    <br>
+    <style>
+        .card-po{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .column {
+            width: 25%;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 2px solid lightgray;
+        }
+        
+        .column p {
+            font-size: 30px;
+            text-align: center;
+            margin-top: -0px;
+            color: rgb(0, 0, 0);
+            
+        }
+        .column h3{
+          font-size: 20px;
+          margin-top: -20px;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        }
+        .marble{
+          width: 80px;
+          height: 80px;
+          margin-left: 40px;
+        }
+    
+        .achi {
+            text-align: center;
+            margin: 20px 0;
+            color: black;
+            font-size: 28px;
+        }
+    </style>
+    <h1 class="achi">OUR ACHIEVEMENTS</h1>
+
+<div class="card-po">
+    <div class="column">
+        <img src="https://cdn-icons-png.flaticon.com/128/7857/7857943.png" alt="" class="marble">
+        <p>150+</p>
+        <h3>Marble varieties</h3>
+    </div>
+    <div class="column">
+      <img src="https://cdn-icons-png.flaticon.com/128/6224/6224567.png" alt="" class="marble">
+      <p>50+</p>
+      <h3>Granite varieties</h3>
+  </div>
+  <div class="column">
+    <img src="https://cdn-icons-png.flaticon.com/128/1322/1322236.png" alt="" class="marble">
+    <p>10,000+</p>
+    <h3>Happy Clients</h3>
+</div>
+<div class="column">
+  <img src="https://cdn-icons-png.flaticon.com/128/4946/4946385.png" alt="" class="marble">
+  <p>150+</p>
+  <h3>Project complete</h3>
+</div>
+</div>
+<style>
+    .container-pp {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+        padding: 10px;
+    }
+    .item {
+        background-color:rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-height: 300px;
+    }
+    .item img {
+        max-width: 100%;
+        max-height: 100px;
+        margin-bottom: 10px;
+    }
+    .item p{
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+    }
+    .font-pp{
+      color: rgb(0, 110, 255);
+      font-size: 25px;
+    }
+</style>
+<h1 style="color: #000000; text-align:center; text-decoration:underline; font-size:28px;">WHY CHOOSE US</h1>
+<div class="container-pp">
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/thumb-up-dynamic-premium.png" alt="Image 1">
+        <p><font class="font-pp">Customer First choice</font><br>
+          i1Granite Marble Group's "Customer First" approach is reflected in its commitment to providing exceptional customer service, competitive pricing, and timely delivery.</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/sheild-dynamic-premium.png" alt="Image 2">
+        <p><font class="font-pp">Bigest stone gallery</font><br> 
+          i1Granite Marble Group boasts one of the largest stone galleries in the industry. With a vast collection of premium quality marble, granite, and other natural stone products, customers are sure to find exactly what they are looking for</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/wifi-dynamic-premium.png" alt="Image 3">
+        <p><font class="font-pp">Latest Technology work</font><br>
+          Bhandari Marble Group's commitment to using the latest technology is a key factor in its success and reputation as a leading provider of high-quality natural stone products.</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/phone-incoming-dynamic-premium.png" alt="Image 4">
+        <p><font class="font-pp">24/7 support</font><br>
+          The company's team of knowledgeable and friendly representatives is trained to handle a wide range of customer inquiries and provide expert guidance. With 24/7 support at i1Granite Marble Group</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/medal-dynamic-premium.png" alt="Image 5">
+        <p><font class="font-pp">Superior stone quality</font><br>
+          Our team of professionals have decades of expertise in Custom blocks and slabs to maintain brand value and client satisfaction and provide Superior stone quality.</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/boy-dynamic-premium.png" alt="Image 6">
+        <p><font class="font-pp">Customer sales inspection</font><br>
+          i1Granite Marble Group understands the importance of customer satisfaction and offers comprehensive sales inspection services to ensure that customers receive the right products for their needs.</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/rupee-dynamic-premium.png" alt="Image 7">
+        <p><font class="font-pp">Bigger Savings </font><br> us
+          With i1Granite Marble Group, customers can expect to receive the best possible prices on a wide range of premium quality natural stone products.</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/money-dynamic-premium.png" alt="Image 8">
+        <p><font class="font-pp">No Hidden Price</font><br>
+          i1Granite Marble Group is committed to transparent and fair pricing practices. The company believes in being upfront and honest with its customers, and that's why it has a "No Hidden Price" policy.</p>
+    </div>
+    <div class="item">
+        <img src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/flash-dynamic-premium.png" alt="Image 9">
+        <p><font class="font-pp">Your Trusted company</font><br>
+          iqGranite Marble Group is a trusted and reliable company that has earned a reputation for providing exceptional products and services. With years of experience in the industry, the company has a deep understanding of customer needs</p>
+    </div>
+</div>
+
+<!---------------------------------------------------------------------->
+
+
+</html>
